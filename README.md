@@ -1,7 +1,12 @@
 # Simple-Image-to-Image
- The script uses Diffusers for image translation from a provided URL and prompt. It sets up a Tkinter GUI for inputting the URL and prompt. After clicking "Generate," it loads the Diffusers model, compiles the UNet model for faster inference, performs translation, and displays the result in the Tkinter window.
+ The script uses Diffusers for image translation from a provided URL and prompt.
+ It sets up a Tkinter GUI for inputting the URL and prompt. 
+ After clicking "Generate," it loads the Diffusers model, compiles the UNet model for faster inference, performs translation, and displays the result in the Tkinter window.
+ 
 Image Translation with Diffusers and Tkinter GUI
-This repository contains a Python script for performing image translation using the Diffusers library and displaying the results in a Tkinter GUI. The script allows users to input an image URL and a prompt, and then generates a translated image based on the provided input.
+
+This repository contains a Python script for performing image translation using the Diffusers library and displaying the results in a Tkinter GUI.
+The script allows users to input an image URL and a prompt, and then generates a translated image based on the provided input.
 
 Requirements
 Python 3.x
@@ -11,9 +16,11 @@ Torch
 Diffusers
 Installation
 Clone this repository to your local machine:
+
 git clone https://github.com/MetalHead/Simple-Image-to-Image.git
 
 Install the required Python packages:
+
 pip install -r requirements.txt
 
 Usage
